@@ -1,0 +1,6 @@
+.into__systems-list{
+    display: flex;
+    gap: 34px;
+    align-items: baseline;
+    margin: 75px 0 75px 0;
+}

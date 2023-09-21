@@ -1,0 +1,9 @@
+.into__content{
+    padding: 144px 0 0 148px;
+    height: 590px;
+    flex-shrink: 0;
+    background-image: url(../../../images/phone.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 950px 545px;
+}
