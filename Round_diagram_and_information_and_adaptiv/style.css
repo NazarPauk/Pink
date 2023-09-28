@@ -6,8 +6,7 @@
 .information__paragrafs{
     gap: 30px;
     padding: 46px 20px 70px 20px;
-    display: flex;
-   
+    display: flex;   
     height: 134px;
     flex-direction: column;
     justify-content: center;
@@ -21,10 +20,11 @@
     font-weight: 300;
     line-height: 120%; 
 }
-.information__texts{
+.information__texts-and-image{
     padding-top: 53px;
     display: flex;
     flex-direction: column;
+    background-color:  #F2F2F2;
 }
 .texts__title{
     display: flex;
@@ -32,11 +32,38 @@
     height: 14px;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     flex-shrink: 0;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.texts__text{
+    display: flex;
+    width: 280px;
+    height: 58px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #283645;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin: 0 auto;  
+}
+.texts__texts{
+    margin-bottom: 43px;
+}
+.texts__text:last-of-type{
     margin: 0 auto;
 }
 .information__image{
-    background-image: url("../images/");
+    background-image: url("../images/iphone2.png");
+    width: 157px;
+    height: 320px;
+    margin: 0 auto;
 }
 @media screen and (min-width: 660px) {
     .content__information{
@@ -60,18 +87,49 @@
         font-weight: 300;
         line-height: normal;
     }
-    .information__texts{
+    .information__texts-and-image{
         padding-top: 53px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
     }
     .texts__title{      
         display: flex;
         width: 310px;        
         flex-direction: column;
-        justify-content: center;
-     
+        justify-content: center;     
     }
+    .texts__text{
+        display: flex;
+        width: 252px;
+        height: 103px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #283645;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .texts__text:last-of-type{
+        margin: 0 auto;
+    }
+    .information__texts{
+        display: flex;
+        flex-direction: column;
+    }
+    .texts__texts{
+        gap: 35px;
+    }
+    .information__image{
+        background-image: url("../images/iphone2.png");
+        width: 268px;
+        height: 547px;
+        background-repeat: no-repeat;
+    }
+
 }
 @media screen and (min-width: 1200px) {
     .content__information{
@@ -80,7 +138,6 @@
     }
     .information__paragrafs{
         display: flex;
-        
         height: 174px;
         flex-direction: column;
         justify-content: center;
@@ -88,10 +145,12 @@
         gap: 0;
         margin: 0 auto;
     }
-    .information__texts{
+    .information__texts-and-image{
         padding-top: 53px;
         display: flex;
-        flex-direction: column;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        
     }
     .texts__paragraf{
         color: #283645;
@@ -102,4 +161,41 @@
         font-weight: 300;
         line-height: normal;
     }
+    .texts__texts{
+             align-items: center;
+        margin-top: 24px;
+        margin-bottom: 59px;
+
+    }
+    .information__texts{
+        display: flex;
+        flex-direction: row;
+    }
+    .texts__text{
+        display: flex;
+        width: 252px;
+        height: 103px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #283645;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .information__image{
+        background-image: url("../images/iphone3.png");
+        width: 186px;
+        height: 382px;
+        background-repeat: no-repeat;
+        margin-left: 194px;
+    }
+    .information__texts{
+        display: flex;
+        margin-left: 154px;
+    }
+    
 }
