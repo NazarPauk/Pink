@@ -1,43 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>My_Pink</title>
+    <link rel="stylesheet" href="block/page/page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body>
-    <header class="into">
-        <section class="into__top-menu">
-            <img src="images/logotype-white-desktop.png" alt="Glasses and the text is pink under them" class="into__logo">
-                <nav>
-                    <ul class="into__nav-list">
-                        <li><a href="">Главная</a></li>
-                        <li><a href="">Фотографии</a></li>
-                        <li><a href="">Конкурс</a></li>
-                        <li><a href="">HTML Academy</a></li>
-                    </ul>
-                </nav>
-            </section>
+<body>   
+    <section class="price">
+        <table class="price__table" >
+            <thead class="table__head">
+                <th class="table__header table_header_hidden">
+                  
+                </th>
+                <th class="table__header">
+                    <p class="table__plan-name table_plan_name_baza">База</p>
+                    <p class="table__plan-price">1,99 USD</p>
+                </th>
+                <th class="table__header table__header-hit-ribbon">
+                        <div class="ribbon__content-redLine">
+                            <h6 class="ribbon__content-redLine-text">XИТ</h6>
+                        </div>
+                        <span class="table__plan-name">Стандарт</span>
+                        <span class="table__plan-price">3,99 USD</span>
+                    </div>
+                </th>                
+                <th class="table__header">
+                    <span class="table__plan-name">Безлимит</span>
+                    <span class="table__plan-price">9,99 USD</span>
+                </th>
+            </thead>
+            <tr class="table__body">
+                <td class="table__body-option">Розовый фильтр</td>
+                <td class="table__body-yes">
+                    <img class="table_body_yes_size" src="images/yes.svg" alt="Yes">
+                </td>
+                <td class="table__body-yes">
+                    <img class="table_body_yes_size" src="images/yes.svg" alt="Yes">
+                </td>
+                <td class="table__body-yes">
+                    <img class="table_body_yes_size" src="images/yes.svg" alt="Yes">
+                </td>
+            </tr>
+            <tr class="table__body">
+                <td class="table__body-option">Смайлики</td>
+                <td class="table__body-no">
+                    <img class="table_body_no_size"src="images/no.svg" alt="No">
+                </td>
+                <td class="table__body-yes">
+                    <img class="table_body_yes_size" class="table__body-yes-size"src="images/yes.svg" alt="Yes">
+                </td>
+                <td class="table__body-yes">
+                    <img class="table_body_yes_size"class="table__body-yes-size" src="images/yes.svg" alt="Yes">
+                </td>
+            </tr>
+            <tr class="table__body">
+                <td class="table__body-option">Комментарии</td>
+                <td class="table__body-no">
+                    <img class="table_body_no_size" src="images/no.svg" alt="No">
+                </td>                
+                <td class="table__body-no">
+                    <img class="table_body_no_size" src="images/no.svg" alt="No">
+                </td>
+                <td class="table__body-yes">
+                    <img class="table_body_yes_size" src="images/yes.svg" alt="Yes">
+                </td>
+            </tr>
+        </table>
+    </section>
 
-            <section class="into__content">
-                <div class="into__info">
-                <h1 class="into__title">Взгляните
-                    на жизнь
-                    иначе!</h1>
-                <a href="" class="into__button" aria-label="download app">Скачать приложение</a>
-
-                <ul class="into__systems-list">
-                    <li class="into__system"><img src="images/android-logo.png" alt="" class="into__system-logo"></li>
-                    <li class="into__system"><img src="images/apple-logo.png" alt="" class="into__system-logo"></li>
-                    <li class="into__system"><img src="images/microsoft-logo.png" alt="" class="into__system-logo"></li>
-                </ul>
-
-                <p class="into__subtitle">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    <footer class="footer">
+        <div class="footer__logotype">
+            <img class="footer__logotype-blue-desktop"   src="images/logotype-blue-desktop.png" alt="logo Pink">
+        </div>
+        <div class="footer__social-media">
+            <div class="footer__twitter">
+                <div class="footer__twitter-pic">
+                    <img class="footer__twitter-pic-logo"src="images/twitter.png" alt="Logo Twitter">
                 </div>
-            </section>
-
-    </header>
+            </div>
+            <div class="footer__facebook">
+                <div class="footer__facebook-pic">
+                        <img class="footer__facebook-pic-logo"   src="images/facebook.png" alt="Logo Facebook">    
+                </div>      
+            </div>
+            <div class="footer__youtube">
+                <div class="footer__youtube-pic">
+                    <img class="footer__youtube-pic-logo" src="images/youtube.png" alt="Logo Youtube"> 
+                </div>
+            </div>            
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-made">Разработано</p>
+            <img class="footer__copyright-html-logo"  src="images/html academy.svg" alt="logo HTML Academy">
+            
+        </div>
+    </footer>
+        
 </body>
 </html>

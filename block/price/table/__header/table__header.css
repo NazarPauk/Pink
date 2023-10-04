@@ -1,0 +1,48 @@
+/* Заголовки таблицы */
+.table__header {
+    width: 235px;
+    background: #283645;
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Скрытый заголовок */
+.table_header_hidden {
+    background-color: transparent;
+}
+
+/* Лента с "ХИТ" */
+.ribbon__content-redLine {
+    margin: 0;
+    padding: 0;
+    content: '';
+    position: relative;
+    width: 130px;
+    background-color: #D22856; 
+    transform: rotate(315deg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 5px;
+    position: absolute;
+    left: -45px;
+    height: 30px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 2;
+}
+
+
+.ribbon__content-redLine-text{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}

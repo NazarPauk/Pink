@@ -1,0 +1,10 @@
+/* Опции в таблице */
+.table__body-option {
+    height: 59px;
+    margin: auto;
+    padding-left: 22px;
+    color: #283645;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+}

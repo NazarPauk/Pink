@@ -1,0 +1,7 @@
+/* Логотип синего цвета для десктопа */
+.footer__logotype-blue-desktop{
+    width: 147px;
+    height: 40px;
+    flex-shrink: 0; /* Запрещаем сжатие */
+    margin: 0; /* Убираем внешние отступы */
+}

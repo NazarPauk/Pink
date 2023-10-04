@@ -1,0 +1,16 @@
+/* Ячейки с "Да" и "Нет" */
+.table__body-yes,
+.table__body-no {
+    height: 59px;
+    margin: auto;
+}
+
+/* Иконки "Да" и "Нет" */
+.table_body_yes_size,
+.table_body_no_size {
+    width: 31px;
+    height: 21px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}

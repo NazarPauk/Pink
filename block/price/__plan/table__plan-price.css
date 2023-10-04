@@ -1,0 +1,12 @@
+/* Цены тарифов */
+.table__plan-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px; /* 125% */
+    text-transform: uppercase;
+    overflow-y: hidden;
+}

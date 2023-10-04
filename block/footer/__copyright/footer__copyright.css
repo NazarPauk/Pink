@@ -1,0 +1,15 @@
+/* Копирайт */
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 153px;
+    margin: 0; /* Убираем внешние отступы */
+}
+
+/* Логотип HTML Academy в копирайте */
+.footer__copyright-html-logo{
+    width: 27px;
+    height: 34px;
+    flex-shrink: 0; /* Запрещаем сжатие */
+}

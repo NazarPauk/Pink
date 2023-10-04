@@ -1,0 +1,24 @@
+
+@import url("/block/footer/__copyright/footer__copyright.css");
+@import url("/block/footer/__logotype/footer__logotype-blue-desktop.css");
+@import url("/block/footer/__logotype/footer__logotype.css");
+@import url("/block/footer/footer.css");
+@import url("/block/footer/social-media/social-media.css");
+@import url("/block/page/page.css");
+@import url("/block/price/__plan/table__plan-name.css");
+@import url("/block/price/__plan/table__plan-price.css");
+@import url("/block/price/table/__body/price__body.css");
+@import url("/block/price/table/__body/table__body-option.css");
+@import url("/block/price/table/__body/table__body-variable.css");
+@import url("/block/price/table/__header/table__header.css");
+@import url("/block/price/table/__table/price__table.css");
+@import url("/block/price/price.css");
+
+
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}

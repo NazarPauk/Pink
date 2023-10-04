@@ -1,0 +1,11 @@
+/* Основной блок */
+.price {
+    flex-shrink: 0;
+    background-image: url("/images/background.png");
+    margin: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 159px;
+    padding-bottom: 74px;
+}

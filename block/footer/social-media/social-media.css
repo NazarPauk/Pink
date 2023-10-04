@@ -1,0 +1,50 @@
+/* Блок социальных медиа в футере */
+.footer__social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0; /* Убираем внешние отступы */
+    height: 48px;
+    width: 166px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 50%; /* Располагаем по центру горизонтально относительно родителя */
+    transform: translateX(-50%); /* Центрируем по горизонтали */
+}
+
+/* Логотипы Facebook, Twitter и Youtube */
+.footer__facebook-pic,
+.footer__twitter-pic,
+.footer__youtube-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Логотип Youtube с отступом слева */
+.footer__youtube-pic {
+    margin-left: 7px;
+}
+
+/* Логотип Twitter */
+.footer__twitter-pic-logo{
+    width: 18px;
+    height: 14px;   
+}
+
+/* Логотип Facebook */
+.footer__facebook-pic-logo{
+    width: 9px;
+    height: 18px;
+}
+
+/* Логотип Youtube */
+.footer__youtube-pic-logo{
+    width: 15px;
+    height: 13px;
+}
+
+/* Блок Facebook в футере */
+.footer__facebook {
+    margin: 0 11px; /* Устанавливаем отступы сверху и снизу, справа и слева 11px */
+}
+

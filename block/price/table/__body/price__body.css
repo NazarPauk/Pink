@@ -1,0 +1,5 @@
+/* Тело таблицы */
+.table__body {
+    background-color: #FFF;
+    border: 2px solid #E5E5E5;
+}
